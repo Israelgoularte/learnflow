@@ -1,0 +1,40 @@
+.custom-button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+}
+
+/* Estilos para a barra superior */
+.top-bar {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-alignment: center-left;
+}
+
+.top-bar .logo {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 90%;
+}
+
+.top-bar .user-info {
+    -fx-font-size: 14px;
+    -fx-padding: 0 10px;
+    -fx-pref-width: 6%;
+}
+
+.top-bar .logout {
+    -fx-font-size: 14px;
+    -fx-padding: 0 10px;
+    -fx-pref-width: 5%;
+}
+
+/* Estilos para o conteúdo da página */
+.content {
+    -fx-padding: 20px;
+}
+
+/* Restante dos estilos da página */

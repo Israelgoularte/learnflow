@@ -1,0 +1,4 @@
+.root .title-bar {
+    -fx-background-color: gold;
+    -fx-text-fill: black;
+}
