@@ -7,14 +7,22 @@ LearnFlow é um projeto de aplicação Java que permite armazenar e gerenciar co
 __Padrões de Projeto Utilizados__
 
 **Template Method**
+    
     src\main\java\app\InicializadorInterface - Classe responsável pela inicialização da interface do aplicativo.
     src\main\java\view\paginas\Pagina - Classe base para as páginas do aplicativo.
+
 **Chain of Responsibility**
+
     src\main\java\view\changeAppearence\ - Pacote contendo classes relacionadas à alteração de aparência da interface.
+
 **Simple Factory**
+
     src\main\java\view\paginas\factory - Pacote contendo classes de fábrica relacionadas às páginas.
+
     src\main\java\view\telaLayout\factorys - Pacote contendo classes de fábrica relacionadas ao layout da tela.
+
 **Facade**
+
     src\main\java\controller\FacadeController - Classe que atua como uma fachada para o controle das funcionalidades do aplicativo.
 
 ---
